@@ -2,6 +2,8 @@
   margin: 0%;
   padding: 0%;
   height: 100wh;
+  color: #fff;
+  font-size: 15px;
 }
 
 .cont .first {
@@ -268,3 +270,42 @@ table a {
   text-decoration: none;
 }
 
+.aboutUsCont {
+  margin-top: 5rem;
+  height: 40rem;
+  width: 40rem;
+  background-color: #fff;
+  border-radius: 20px;
+  border-color: #000;
+  border-style: double;
+  display: flex;
+  align-items: center;
+}
+
+.aboutUsCont p {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+}
+
+.pcont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.pcont .pright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px ;
+}
+.pcont p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.pcont h1 {
+  font-size: 40px;
+}
