@@ -352,12 +352,12 @@ table a {
   display: flex;
   flex-direction: row;
   margin: 35px;
+  align-items: center ;
+  justify-content: center;
 }
 
 #captchaBackground {
-  height: 220px;
-  width: 250px;
-  background-color: #2d3748;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,4 +403,20 @@ table a {
  }
  .correctCaptcha {
   color: #7FFF00;
+ }
+
+ .printCont h1 {
+  color: #000;
+  font-size: 35px;
+ }
+
+ .printCont h2 {
+  color: #000;
+  font-size: 25px;
+ }
+ .notValid {
+  border-color: red;
+ }
+ .Valid {
+  border-color: #7FFF00;
  }
